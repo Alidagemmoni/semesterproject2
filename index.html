@@ -1,44 +1,45 @@
 <!DOCTYPE HTML>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Battle of the Iron throne</title>
-        <script>
-          
-        </script>
-        <!--bootstrap-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
-        <link href="assets/sass/styles.css" type="text/css" rel="stylesheet">
-    </head>
-    <body>
-       <div class="header">
-            <img src="assets/images/logo.svg" height="200" width="200" alt="">
-            <div> 
-                <h1 class="headerText">Game of Swords</h1>
-            </div>
-            <div id="selectedPlayer" class="selected-player">
-                <h2 class="headerText">Choose your character</h2>
-                <button id="startButton" disabled>Start</button>
-            </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle of the Iron throne</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <link href="assets/sass/styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div>hello</div>
+    <div class="header">
+        <img src="assets/images/logo.svg" height="200" width="200" alt="">
+
+        <h1 class="headerText">Game of Swords</h1>
+
+        <div id="selectedPlayer" class="selected-player">
+            Choose your character
         </div>
-        <div class="row selection-container">
-            <div class="player card character col-md-2 col-md-offset-1" data-name="Jon" data-id="1">
-                <h3>John Snow</h3>
-                <img src="assets/images/johnsnow.svg" height="100" width="100" alt="">
-                <div class="card__details">
-                </div>
-                <div id="johnSnow"></div>
-                <button type="button" class="btn btn-primary">Choose</button>
+
+        <button id="startButton" disabled>Start</button>
+    </div>
+    <div class="row selection-container">
+        <div class="player card character col-md-2 col-md-offset-1" data-name="Jon" data-id="1">
+            <h3>Jon Snow</h3>
+            <img src="assets/images/johnsnow.svg" height="100" width="100" alt="">
+            <div class="card__details">
             </div>
-            <div class="player card character col-md-2" data-name="Theon" data-id="2">
-                <h3>Theon Greyjoy</h3>
-                <img src="assets/images/theon.svg" height="100" width="100" alt="">
-                <div class="card__details">
-                </div>
-                <div id="theon"></div>
-                <button type="button" class="btn btn-primary">Choose</button>
+            <div id="johnSnow"></div>
+            <button type="button" class="btn btn-primary">Choose</button>
+        </div>
+        <div class="player card character col-md-2" data-name="Theon" data-id="2">
+            <h3>Theon Greyjoy</h3>
+            <img src="assets/images/theon.svg" height="100" width="100" alt="">
+            <div class="card__details">
             </div>
+            <div id="theon"></div>
+            <button type="button" class="btn btn-primary">Choose</button>
+        </div>
         <div class="player card character col-md-2" data-name="Nymeria" data-id="3">
             <h3>Nymeria Sand</h3>
             <img src="assets/images/nymeria.svg" height="100" width="100" alt="">
@@ -63,8 +64,8 @@
             <div id="daenerys"></div>
             <button type="button" class="btn btn-primary">Choose</button>
         </div>
-        </div>
-        <div class="row selection-container">
+    </div>
+    <div class="row selection-container">
         <div class="player card character col-md-2 col-md-offset-1" data-name="Arya" data-id="6">
             <h3>Arya Stark</h3>
             <img src="assets/images/arya.svg" height="100" width="100" alt="">
@@ -105,12 +106,14 @@
             <div id="rhaegar"></div>
             <button type="button" class="btn btn-primary">Choose</button>
         </div>
-        </div>
-        <button type="button" class="btn btn-primary right">Play game</button>
-        <!--jquery and JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="scripts/index.js" type="text/javascript"></script>
-    </body>
-    <footer>Copyright &copy; 2019</footer>
+    </div>
+    <!-- <button type="button" class="btn btn-primary right">Play game</button> -->
+    <!--jquery and JS-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="scripts/index.js" type="text/javascript"></script>
+</body>
+<footer>Copyright &copy; 2019</footer>
+
 </html>
